@@ -1,0 +1,21 @@
+The mobile app is designed for members of a football 5-a-side association, giving them the ability to stay informed and interact with the association’s activities. On the home page, members can read posts, such as bar announcements or the "Team of the Week," and they can like or comment on these posts. Additionally, the app allows members to sign up for the two weekly football matches, unsign if they can't attend, or switch between matches.
+
+The app will manage two main types of data: Posts and Matches, each of which will have at least five important fields.
+
+Posts will include:
+
+Post ID: A unique identifier for each post.
+Title: The headline or topic of the post (e.g., "Team of the Week").
+Content: The main text or information in the post.
+Likes Count: The number of likes the post has received from members.
+Comments: A list of comments added by members.
+Matches will include:
+
+Match ID: A unique identifier for each match.
+Match Date: The date and time when the match will occur.
+Registered Members: The list of players who have signed up.
+Max Capacity: The maximum number of players allowed for the match.
+Location: The venue where the match will take place.
+Both Posts and Matches will support the following operations: create, read, update, and delete. Admins will create and delete posts, while members can sign up for matches, opt-out if they can't attend, or switch matches.
+
+The app will store data locally and on a server. This ensures members can view posts and match details even when offline. Actions such as signing up for a match will be saved and synced with the server once the device reconnects to the internet.
